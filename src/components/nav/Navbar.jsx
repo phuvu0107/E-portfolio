@@ -8,7 +8,7 @@ import {RiContactsBookFill} from 'react-icons/ri';
 import { useState } from 'react';
 
 const Navbar = () => {
-  const [activeNavItem, setActiveNavItem] = useState('');
+  const [activeNavItem, setActiveNavItem] = useState('#');
   const onClickItem = item => {
     setActiveNavItem(item);
   }
